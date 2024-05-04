@@ -90,3 +90,42 @@ h1 {
   font-family: 'Indie Flower', cursive; /* Utiliser une police de caractères cursive pour un aspect de graffiti */
   font-size: 30px;
 }
+
+.carousel {
+  width: 80%; /* Largeur du carrousel */
+  margin: 0 auto;
+}
+
+.titre_accueil {
+  color: #4e003d;
+  font-size: 65px;
+  text-align: center; /* Texte centré */
+  position: absolute; /* Position absolue pour centrer */
+  top: 500px; /* Déplacer vers le haut de 50% de la hauteur de la fenêtre */
+  left: 0%; /* Déplacer vers la gauche de 50% de la largeur de la fenêtre */
+  transform: translate(-50%, -50%);
+  width: 100%; /* Largeur de chaque élément de texte */
+  white-space: nowrap; /* Empêcher le texte de passer à la ligne */
+  animation: float 5s linear infinite;
+}
+
+.texte_accueil {
+  color: #9e007c;
+  font-size: 25px;
+  text-align: center; /* Texte centré */
+  position: absolute; /* Position absolue pour centrer */
+  top: 750px; /* Déplacer vers le haut de 50% de la hauteur de la fenêtre */
+  left: 50%; /* Déplacer vers la gauche de 50% de la largeur de la fenêtre */
+  transform: translate(-50%, -50%);
+  width: 100%; /* Largeur de chaque élément de texte */
+  white-space: nowrap; /* Empêcher le texte de passer à la ligne */
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

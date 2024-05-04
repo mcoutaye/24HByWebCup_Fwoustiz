@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.b852abc5.css",
-    "main.js": "/static/js/main.6fa902a3.js",
+    "main.css": "/static/css/main.8c2f0a79.css",
+    "main.js": "/static/js/main.95ef5686.js",
     "static/media/logo_webcup.webp": "/static/media/logo_webcup.39308fa235fa8546977c.webp",
     "static/media/pink-circle.png": "/static/media/pink-circle.e6883addd0c140b95937.png",
     "static/media/baniere.png": "/static/media/baniere.6a17d0955c9996567dc3.png",
     "index.html": "/index.html",
-    "main.b852abc5.css.map": "/static/css/main.b852abc5.css.map",
-    "main.6fa902a3.js.map": "/static/js/main.6fa902a3.js.map"
+    "main.8c2f0a79.css.map": "/static/css/main.8c2f0a79.css.map",
+    "main.95ef5686.js.map": "/static/js/main.95ef5686.js.map"
   },
   "entrypoints": [
-    "static/css/main.b852abc5.css",
-    "static/js/main.6fa902a3.js"
+    "static/css/main.8c2f0a79.css",
+    "static/js/main.95ef5686.js"
   ]
 }
