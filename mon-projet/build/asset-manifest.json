@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.108cc849.css",
-    "main.js": "/static/js/main.dd3455c3.js",
+    "main.css": "/static/css/main.b38139ad.css",
+    "main.js": "/static/js/main.01178a44.js",
     "static/media/test.gif": "/static/media/test.4783f7dde0dfdd25b46e.gif",
     "static/media/img.png": "/static/media/img.cf8b3db511494c0cbb0c.png",
     "static/media/equipe.png": "/static/media/equipe.1aad846fe3b7fd8b9841.png",
     "static/media/logo_webcup.webp": "/static/media/logo_webcup.39308fa235fa8546977c.webp",
     "static/media/icon-insta.webp": "/static/media/icon-insta.5a3b9c616fd2387183f7.webp",
     "static/media/icon-Webcup.png": "/static/media/icon-Webcup.ed282048080bd0c17afc.png",
+    "static/media/twitter.webp": "/static/media/twitter.2926eb48f3a56cf1e2ac.webp",
     "index.html": "/index.html",
-    "main.108cc849.css.map": "/static/css/main.108cc849.css.map",
-    "main.dd3455c3.js.map": "/static/js/main.dd3455c3.js.map"
+    "main.b38139ad.css.map": "/static/css/main.b38139ad.css.map",
+    "main.01178a44.js.map": "/static/js/main.01178a44.js.map"
   },
   "entrypoints": [
-    "static/css/main.108cc849.css",
-    "static/js/main.dd3455c3.js"
+    "static/css/main.b38139ad.css",
+    "static/js/main.01178a44.js"
   ]
 }

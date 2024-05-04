@@ -2,6 +2,7 @@ import React from 'react';
 import iconf from '../assets/icon-facebook.png';
 import iconi from '../assets/icon-insta.webp';
 import iconw from '../assets/icon-Webcup.png';
+import icont from '../assets/twitter.webp';
 
 const ContactFooter = () => {
   return (
@@ -29,6 +30,12 @@ const ContactFooter = () => {
         <a href="https://www.webcup.fr/">
           <img src={iconw}  className="taille-icon" alt="Webcup" />
           <span className="social-link-text3">Webcup.fr</span>
+        </a>
+        <br></br>
+        <br></br>
+        <a href="https://twitter.com/Web_Cup">
+          <img src={icont}  className="taille-icon" alt="twitter" />
+          <span className="social-link-text4">Twitter</span>
         </a>
       </div>
       <h1 className="text-de-fin" >Webcup 2024<br></br>L'esprit de compétition, s'amuser et coder pendant 24h</h1>

@@ -302,6 +302,14 @@ li {
   font-size: 20px;
 }
 
+.social-link-text4 {
+  position: absolute;
+  top: 188px;
+  left: 20px;
+  color: #040404;
+  font-size: 20px;
+}
+
 .text-de-fin {
   position: absolute;
   top: 19px;
