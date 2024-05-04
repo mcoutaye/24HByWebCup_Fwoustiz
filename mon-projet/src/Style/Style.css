@@ -46,7 +46,6 @@ li {
   top: 1900px; /* Déplace la bannière vers le haut de 50 pixels */
   left: -10px;
   width: 100.97%;
-  height: 118vh; /* 50% de la hauteur de la vue (viewport) */
   z-index: 1;
 }
 
