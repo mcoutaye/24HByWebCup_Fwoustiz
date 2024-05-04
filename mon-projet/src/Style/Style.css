@@ -42,7 +42,7 @@ li {
 }
 
 .equipe {
-  position: absolute;
+  position: relative;
   top: 1900px; /* Déplace la bannière vers le haut de 50 pixels */
   left: -10px;
   width: 100.97%;
