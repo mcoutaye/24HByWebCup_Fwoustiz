@@ -1,0 +1,82 @@
+/* styles.css */
+h1 {
+  font-family: 'Indie Flower', cursive; /* Utiliser une police de caractères cursive pour un aspect de graffiti */
+  font-size: 36px; /* Taille de police plus grande pour un aspect audacieux */
+  color: #ff4500; /* Texte en orange */
+  bottom: 100px;
+  /* Ajoutez d'autres styles selon vos besoins */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Style.css */
+.image-container {
+  position: relative;
+}
+
+/* Style.css */
+.baniere {
+  position: absolute;
+  top: -50px; /* Déplace la bannière vers le haut de 50 pixels */
+  left: -10px;
+  width: 102%;
+  height: 45vh; /* 50% de la hauteur de la vue (viewport) */
+  z-index: 1;
+}
+
+.App-logo {
+  position: absolute;
+  top: -25px; /* Centrer verticalement */
+  left: 45%; /* Centrer horizontalement */
+  width: 10%;
+  z-index: 2;
+}
+
+.logo_bis {
+  position: absolute;
+  top: -120px; /* Centrer verticalement */
+  left: 50%; /* Centrer horizontalement */
+  transform: translate(-50%, -50%); /* Centrer l'image */
+  width: 50%;
+  z-index: 1; /* Placer le logo au-dessus de la bannière */
+}
+
+/* Style.css */
+.nav-link-home {
+  position: absolute;
+  top: 55px; /* Déplace la navigation vers le bas de 50 pixels pour apparaître sur la bannière */
+  left: 35%;
+  z-index: 2;
+}
+
+.nav-link-about {
+  position: absolute;
+  top: 58px;
+  left: 63%;
+  z-index: 2;
+}
+
+.nav-link-actus {
+  position: absolute;
+  top: 200px;
+  left: 40%;
+  z-index: 2;
+}
+
+.nav-link-gagnants {
+  position: absolute;
+  top: 58px;
+  left: 63%;
+  z-index: 2;
+}
+
+.nav-link-rejoindre {
+  position: absolute;
+  top: 200px;
+  left: 55%;
+  z-index: 2;
+}
