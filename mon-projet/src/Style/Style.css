@@ -278,36 +278,46 @@ li {
   width: 2%;
 }
 
+.taille-icon {
+  position: relative;
+  width: 2%;
+}
+
+.taille-icon {
+  position: relative;
+  width: 2%;
+}
+
 .social-link-text {
-  position: absolute;
-  top: 70px;
+  position: relative;
   left: 20px;
   color: #020202;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .social-link-text2 {
-  position: absolute;
-  top: 108px;
+  position: relative;
   left: 20px;
   color: #050505;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .social-link-text3 {
-  position: absolute;
-  top: 148px;
+  position: relative;
   left: 20px;
   color: #040404;
+  text-decoration: none;
   font-size: 20px;
 }
 
 .social-link-text4 {
-  position: absolute;
-  top: 188px;
+  position: relative;
   left: 20px;
   color: #040404;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .text-de-fin {
