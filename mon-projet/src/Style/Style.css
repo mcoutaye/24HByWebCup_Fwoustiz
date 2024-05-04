@@ -26,9 +26,19 @@ li {
   position: absolute;
   top: -275px; /* Déplace la bannière vers le haut de 50 pixels */
   left: -10px;
-  width: 102%;
+  width: 100.95%;
   height: 45vh; /* 50% de la hauteur de la vue (viewport) */
   z-index: 1;
+}
+
+.fond-gif {
+  position: absolute;
+  top: 148px; /* Déplace la bannière vers le haut de 50 pixels */
+  left: -10px;
+  width: 100.97%;
+  height: 85vh; /* 50% de la hauteur de la vue (viewport) */
+  z-index: 1;
+  opacity: 0.9; /* Définit l'opacité à 80% */
 }
 
 .App-logo {
@@ -59,7 +69,7 @@ li {
   position: absolute;
   top: 25px;
   left: 31.7%;
-  width: 620px;
+  width: 800px;
   height: 46px;
   font-size: 30px;
   z-index: 2;
@@ -81,7 +91,7 @@ li {
   text-decoration: none;
   position: absolute;
   top: 50px;
-  left: 60%;
+  left: 70%;
   z-index: 2;
   transform: translate(-50%, -50%);
   color: #080808;
@@ -93,7 +103,7 @@ li {
   text-decoration: none;
   position: absolute;
   top: 50px;
-  left: 41.5%;
+  left: 45%;
   z-index: 2;
   transform: translate(-50%, -50%);
   color: #080808;
@@ -104,7 +114,7 @@ li {
   text-decoration: none;
   position: absolute;
   top: 50px;
-  left: 44.5%;
+  left: 52%;
   transform: translate(10%, -50%);
   z-index: 2;
   color: #080808;
@@ -149,28 +159,30 @@ li {
 }
 
 .titre_accueil {
-  color: #4e003d;
-  font-size: 65px;
+  color: #ea0683;
+  font-size: 80px;
   text-align: center; /* Texte centré */
   position: absolute; /* Position absolue pour centrer */
-  top: 180px; /* Déplacer vers le haut de 50% de la hauteur de la fenêtre */
+  top: 260px; /* Déplacer vers le haut de 50% de la hauteur de la fenêtre */
   left: 0%; /* Déplacer vers la gauche de 50% de la largeur de la fenêtre */
   transform: translate(-50%, -50%);
   width: 100%; /* Largeur de chaque élément de texte */
   white-space: nowrap; /* Empêcher le texte de passer à la ligne */
   animation: float 5s linear infinite;
+  z-index: 2;
 }
 
 .texte_accueil {
-  color: #9e007c;
-  font-size: 25px;
+  color: #d50084;
+  font-size: 30px;
   text-align: center; /* Texte centré */
   position: absolute; /* Position absolue pour centrer */
-  top: 350px; /* Déplacer vers le haut de 50% de la hauteur de la fenêtre */
+  top: 500px; /* Déplacer vers le haut de 50% de la hauteur de la fenêtre */
   left: 50%; /* Déplacer vers la gauche de 50% de la largeur de la fenêtre */
   transform: translate(-50%, -50%);
   width: 100%; /* Largeur de chaque élément de texte */
   white-space: nowrap; /* Empêcher le texte de passer à la ligne */
+  z-index: 2;
 }
 
 @keyframes float {
@@ -184,7 +196,7 @@ li {
 
 .text {
   position: absolute;
-  top: 1500px;
+  top: 1000px;
   left: 850px;
   color: #e70c79;
   font-size: 60px;
@@ -192,8 +204,79 @@ li {
 
 .text2 {
   position: absolute;
-  top: 1800px;
-  left: 10px;
+  top: 1200px;
+  left: 200px;
   color: #e70c79;
+  width: 80%;
   font-size: 30px;
+}
+
+.banner_fin {
+  position: absolute;
+  top: 3000px;
+  left: -10px;
+  width: 100.95%;
+  height: 25vh;
+  z-index: 0;
+}
+
+.end-section {
+  position: absolute;
+  top: 3000px;
+  left: 50px;
+  color: #080808;
+  width: 80%;
+}
+
+.social-links {
+  position: absolute;
+  top: 90px;
+  left: -38px;
+  width: 80%;
+}
+
+.social-icons {
+  position: absolute;
+  top: 0px;
+  left: 820px;
+  color: #060606;
+  width: 50%;
+}
+
+.taille-icon {
+  position: absolute;
+  width: 2%;
+}
+
+.social-link-text {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  color: #020202;
+  font-size: 20px;
+}
+
+.social-link-text2 {
+  position: absolute;
+  top: 108px;
+  left: 20px;
+  color: #050505;
+  font-size: 20px;
+}
+
+.social-link-text3 {
+  position: absolute;
+  top: 148px;
+  left: 20px;
+  color: #040404;
+  font-size: 20px;
+}
+
+.text-de-fin {
+  position: absolute;
+  top: 19px;
+  left: 1400px;
+  color: #030303;
+  width: 25%;
+  font-size: 20px;
 }

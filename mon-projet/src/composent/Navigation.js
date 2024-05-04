@@ -6,7 +6,7 @@ const handleAboutClick = () => {
   if (aboutSection) {
     const aboutSectionPosition = aboutSection.getBoundingClientRect().top;
     window.scrollTo({
-      top: window.pageYOffset + aboutSectionPosition + 30,
+      top: window.pageYOffset + aboutSectionPosition + 5,
       behavior: "smooth"
     });
   }
