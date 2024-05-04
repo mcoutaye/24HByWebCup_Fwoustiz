@@ -1,17 +1,18 @@
 import React from "react";
+import Navigation2 from "./Navigation2";
+import img from '../assets/img.png';
 
 const Transition = () => {
   return (
     <div className="rectangle">
       <div className="police">
-        <h1> Dévouvrez leur profile et témoignage</h1>
+        <h1> Découvrez leur profil et témoignage</h1>
         <ol className="bg">
-          <li>
-            <a href="http://localhost:3000/">Acceuil>></a>
-            <li> Publier</li>
-          </li>
+            <li> >>Publier</li>
+            <Navigation2 /> 
         </ol>
       </div>
+      <img src={img} className="img" alt="img" />
     </div>
   );
 };
