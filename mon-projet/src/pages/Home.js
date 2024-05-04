@@ -8,6 +8,7 @@ import iconf from '../assets/icon-facebook.png';
 import iconi from '../assets/icon-insta.webp';
 import iconw from '../assets/icon-Webcup.png';
 import fond from '../assets/test.gif';
+import equipe from '../assets/equipe.png';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <img src={logo} className="App-logo" alt="logo" />
       <img src={baniere} className="banner" alt="banner" />
       <img src={fond} className="fond-gif" alt="fond" />
+      <img src={equipe} className="equipe" alt="equipe" />
       <h1 id="about" className="text">A propos</h1>
       <p className="text2">La Webcup, c'est comme une effervescence numérique qui s'empare d'un lieu pendant quelques jours. Imaginez un rassemblement bouillonnant où les esprits créatifs se rencontrent pour un marathon d'idées et de codage. C'est une célébration de l'innovation, où des équipes se forment, chacune avec son lot d'expertises diverses, prêtes à relever le défi de créer quelque chose de nouveau, de novateur, et surtout, de fonctionnel, en un temps record.<br></br><br></br>Dans l'atmosphère électrique d'une Webcup, on ressent cette énergie palpitante qui émane des équipes plongées dans la conception et le développement. Les claviers cliquettent, les écrans scintillent, et les discussions fusent alors que les participants jonglent avec les langages de programmation, les frameworks et les API pour donner vie à leurs idées.
         Mais la Webcup, ce n'est pas seulement une compétition technique. C'est aussi un terrain fertile pour l'apprentissage, le partage et la collaboration. Les participants échangent des connaissances, se défient mutuellement et s'entraident pour surmonter les obstacles qui se dressent sur leur chemin vers l'innovation.

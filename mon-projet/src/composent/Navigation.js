@@ -12,6 +12,17 @@ const handleAboutClick = () => {
   }
 };
 
+const handleAboutClick2 = () => {
+  const aboutSection = document.getElementById("about");
+  if (aboutSection) {
+    const aboutSectionPosition = aboutSection.getBoundingClientRect().top;
+    window.scrollTo({
+      top: window.pageYOffset + aboutSectionPosition + 1000,
+      behavior: "smooth"
+    });
+  }
+};
+
 const HeaderBanner = () => {
   return (
     <NavLink to="/" className="header-banner">
@@ -34,10 +45,16 @@ const AboutLink = () => {
   );
 };
 
+const NotreEquipe = () => {
+  return (
+      <li className="nav-link-equipe" style={{ fontFamily: 'Lato, sans-serif'}} onClick={handleAboutClick2}>NotreEquipe</li>
+  );
+};
+
 const RejoindreLink = () => {
     return (
       <NavLink to="/login" className="nav-link-rejoindre">
-        <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Nous rejoindre</li>
+        <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Se connecter</li>
       </NavLink>
     );
   };
@@ -45,7 +62,7 @@ const RejoindreLink = () => {
 const ActusLink = () => {
     return (
       <NavLink to="/about" className="nav-link-actus">
-        <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Publier</li>
+        <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Actus</li>
       </NavLink>
     );
   };
@@ -58,6 +75,7 @@ const Navigation = () => {
         <HomeLink />
         <AboutLink />
         <RejoindreLink />
+        <NotreEquipe />
         <ActusLink />
       </ul>
     </div>
