@@ -1,10 +1,9 @@
 import "../Style/Style.css";
-import { useState } from "react";
 import Header from "../composent/Header";
 import Collection from "../composent/Collection";
 import Transition from "../composent/Transition";
 
-export default function App() {
+const Actus = () => {
   return (
     <div className="App">
       <Header />
@@ -13,3 +12,5 @@ export default function App() {
     </div>
   );
 }
+
+export default Actus

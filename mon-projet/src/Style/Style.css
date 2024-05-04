@@ -403,14 +403,9 @@ header {
 }
 
 .link {
-  text-decoration: none;
-  position: absolute;
-  top: 1227px;
-  left: 47.35%;
-  z-index: 2;
-  transform: translate(-50%, -50%);
-  color: #fa05c1;
-  font-size: 20px;
+  position: relative;
+  align-self: center;
+  color: #f407c5;
 }
 
 .li {

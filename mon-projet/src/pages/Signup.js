@@ -1,41 +1,36 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import auth from '../firebase';
+import React from 'react';
+import { useNavigate, Link } from 'react-router-dom';
+import { signUp } from '../firebase';
 
 const Signup = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState(null);
+  const navigate = useNavigate();
 
-  const handleSignup = async () => {
+  const handleSignUp = async (e) => {
+    e.preventDefault();
+    const { email, password } = e.target.elements;
     try {
-      const userCredential = await auth.createUserWithEmailAndPassword(email, password);
-      console.log('User signed up successfully:', userCredential.user);
+      await signUp(email.value, password.value);
+      navigate('/moncompte');
     } catch (error) {
-      setError(error.message);
+      alert(error.message);
     }
   };
 
   return (
     <div>
-      <h2>Sign Up</h2>
-      {error && <p>{error}</p>}
-      <form>
-        <input
-          type="email"
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <button type="button" onClick={handleSignup}>Sign Up</button>
+      <h1>Inscription</h1>
+      <form onSubmit={handleSignUp}>
+        <div>
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div>
+          <label htmlFor="password">Password:</label>
+          <input type="password" id="password" name="password" />
+        </div>
+        <button type="submit">S'inscrire</button>
       </form>
-      <p>Already have an account? <Link to="/login">Log in</Link></p>
+      <p>Vous avez déjà un compte ? <Link to="/login">Connectez-vous ici</Link></p>
     </div>
   );
 };
