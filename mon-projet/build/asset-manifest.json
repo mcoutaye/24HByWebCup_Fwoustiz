@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3cec19e2.css",
-    "main.js": "/static/js/main.6a79362b.js",
+    "main.css": "/static/css/main.65af0efd.css",
+    "main.js": "/static/js/main.308cf10c.js",
     "static/media/logo_webcup.webp": "/static/media/logo_webcup.39308fa235fa8546977c.webp",
-    "static/media/pink-circle.png": "/static/media/pink-circle.e6883addd0c140b95937.png",
-    "static/media/baniere.png": "/static/media/baniere.ef6d062d8f4354e1e9b2.png",
+    "static/media/tes.png": "/static/media/tes.d2f58930e67d6c390434.png",
+    "static/media/24Hbackground.webp": "/static/media/24Hbackground.0866fa03ca4871071feb.webp",
     "index.html": "/index.html",
-    "main.3cec19e2.css.map": "/static/css/main.3cec19e2.css.map",
-    "main.6a79362b.js.map": "/static/js/main.6a79362b.js.map"
+    "main.65af0efd.css.map": "/static/css/main.65af0efd.css.map",
+    "main.308cf10c.js.map": "/static/js/main.308cf10c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cec19e2.css",
-    "static/js/main.6a79362b.js"
+    "static/css/main.65af0efd.css",
+    "static/js/main.308cf10c.js"
   ]
 }

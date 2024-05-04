@@ -13,7 +13,7 @@ const Accueil = () => {
 const HomeLink = () => {
   return (
     <NavLink to="/" className="nav-link-home">
-      <li className="nav-item">Accueil</li>
+      <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Accueil</li>
     </NavLink>
   );
 };
@@ -21,7 +21,7 @@ const HomeLink = () => {
 const AboutLink = () => {
   return (
     <NavLink to="/about" className="nav-link-about">
-      <li className="nav-item">À propos</li>
+      <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>À propos</li>
     </NavLink>
   );
 };
@@ -29,7 +29,7 @@ const AboutLink = () => {
 const RejoindreLink = () => {
     return (
       <NavLink to="/about" className="nav-link-rejoindre">
-        <li className="nav-item">Nous rejoindre</li>
+        <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Nous rejoindre</li>
       </NavLink>
     );
   };
@@ -37,7 +37,7 @@ const RejoindreLink = () => {
 const ActusLink = () => {
     return (
       <NavLink to="/about" className="nav-link-actus">
-        <li className="nav-item">Actus</li>
+        <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Actus</li>
       </NavLink>
     );
   };
@@ -45,7 +45,7 @@ const ActusLink = () => {
 const Loginlink = () => {
     return (
       <NavLink to="/login" className="nav-link-login">
-        <li className="nav-item">Me connecter</li>
+        <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Me connecter</li>
       </NavLink>
     );
   };

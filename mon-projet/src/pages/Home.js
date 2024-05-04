@@ -2,8 +2,8 @@ import React from "react";
 import Navigation from "../composent/Navigation";
 import "../Style/Style.css";
 import logo from '../assets/logo_webcup.webp';
-import baniere from '../assets/baniere.png';
-import logo_bis from '../assets/pink-circle.png';
+import baniere from '../assets/24Hbackground.webp';
+import logo_bis from '../assets/tes.png';
 
 const Home = () => {
   return (
