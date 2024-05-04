@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../composent/Navigation";
 import Accueil from "../composent/Accueil";
+import EcoIndexBadge from './EcoIndexBadge'; // Importer le composant EcoIndexBadge
 import "../Style/Style.css";
 import logo from '../assets/logo_webcup.webp';
 import baniere from '../assets/header_background.jpg';
@@ -15,6 +16,7 @@ const Home = () => {
     <div className="image-container">
       <Accueil />
       <Navigation />
+      <EcoIndexBadge />
       <img src={logo} className="App-logo" alt="logo" />
       <img src={baniere} className="banner" alt="banner" />
       <img src={fond} className="fond-gif" alt="fond" />
