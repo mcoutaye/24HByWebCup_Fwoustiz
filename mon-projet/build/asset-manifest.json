@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.65af0efd.css",
-    "main.js": "/static/js/main.308cf10c.js",
+    "main.css": "/static/css/main.61040cfe.css",
+    "main.js": "/static/js/main.9605f5b0.js",
     "static/media/logo_webcup.webp": "/static/media/logo_webcup.39308fa235fa8546977c.webp",
-    "static/media/tes.png": "/static/media/tes.d2f58930e67d6c390434.png",
-    "static/media/24Hbackground.webp": "/static/media/24Hbackground.0866fa03ca4871071feb.webp",
     "index.html": "/index.html",
-    "main.65af0efd.css.map": "/static/css/main.65af0efd.css.map",
-    "main.308cf10c.js.map": "/static/js/main.308cf10c.js.map"
+    "main.61040cfe.css.map": "/static/css/main.61040cfe.css.map",
+    "main.9605f5b0.js.map": "/static/js/main.9605f5b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.65af0efd.css",
-    "static/js/main.308cf10c.js"
+    "static/css/main.61040cfe.css",
+    "static/js/main.9605f5b0.js"
   ]
 }

@@ -1,12 +1,22 @@
 import React from "react";
 import { NavLink} from "react-router-dom";
 
-const Accueil = () => {
+const handleAboutClick = () => {
+  const aboutSection = document.getElementById("about");
+  if (aboutSection) {
+    const aboutSectionPosition = aboutSection.getBoundingClientRect().top;
+    window.scrollTo({
+      top: window.pageYOffset + aboutSectionPosition + 30,
+      behavior: "smooth"
+    });
+  }
+};
+
+const HeaderBanner = () => {
   return (
-    <div className="carousel">
-      <h1 style={{ fontFamily: 'Lato, sans-serif'}} className="titre_accueil">Les vétérants du 24h By Webcup</h1>
-      <h2 style={{ fontFamily: 'Lato, sans-serif'}} className="texte_accueil">Durant 24h chrono, les participants vont se challenger autour d'un concours qui consiste à réaliser un site web complet <br></br> à partir d'un sujet qui ne leur sera communiqué qu'au top départ du concours.</h2>
-    </div>
+    <NavLink to="/" className="header-banner">
+      <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}></li>
+    </NavLink>
   );
 };
 
@@ -20,15 +30,13 @@ const HomeLink = () => {
 
 const AboutLink = () => {
   return (
-    <NavLink to="/about" className="nav-link-about">
-      <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>À propos</li>
-    </NavLink>
+      <li className="nav-link-about" style={{ fontFamily: 'Lato, sans-serif'}} onClick={handleAboutClick}>À propos</li>
   );
 };
 
 const RejoindreLink = () => {
     return (
-      <NavLink to="/about" className="nav-link-rejoindre">
+      <NavLink to="/login" className="nav-link-rejoindre">
         <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Nous rejoindre</li>
       </NavLink>
     );
@@ -37,15 +45,7 @@ const RejoindreLink = () => {
 const ActusLink = () => {
     return (
       <NavLink to="/about" className="nav-link-actus">
-        <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Actus</li>
-      </NavLink>
-    );
-  };
-
-const Loginlink = () => {
-    return (
-      <NavLink to="/login" className="nav-link-login">
-        <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Me connecter</li>
+        <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Publier</li>
       </NavLink>
     );
   };
@@ -54,13 +54,12 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <ul>
+        <HeaderBanner />
         <HomeLink />
         <AboutLink />
         <RejoindreLink />
         <ActusLink />
-        <Loginlink />
       </ul>
-      <Accueil />
     </div>
   );
 };

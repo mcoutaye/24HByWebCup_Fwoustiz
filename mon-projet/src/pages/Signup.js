@@ -1,5 +1,5 @@
 import React from 'react';
-import SignupForm from '../components/SignupForm';
+import SignupForm from '../composent/SignupForm';
 
 function Signup() {
   const handleSignup = (email, password) => {
