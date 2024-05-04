@@ -23,7 +23,7 @@ h1 {
   position: absolute;
   top: -50px; /* Déplace la bannière vers le haut de 50 pixels */
   left: -10px;
-  width: 102%;
+  width: 1922px;
   height: 45vh; /* 50% de la hauteur de la vue (viewport) */
   z-index: 1;
 }
@@ -91,6 +91,16 @@ h1 {
   font-size: 30px;
 }
 
+.nav-link-login {
+  position: absolute;
+  top: 5px;
+  left: 3%;
+  z-index: 2;
+  color: #080808;
+  font-family: 'Indie Flower', cursive; /* Utiliser une police de caractères cursive pour un aspect de graffiti */
+  font-size: 30px;
+}
+
 .carousel {
   width: 80%; /* Largeur du carrousel */
   margin: 0 auto;
@@ -126,6 +136,6 @@ h1 {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
 }

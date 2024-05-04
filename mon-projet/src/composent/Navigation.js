@@ -42,6 +42,14 @@ const ActusLink = () => {
     );
   };
 
+const Loginlink = () => {
+    return (
+      <NavLink to="/login" className="nav-link-login">
+        <li className="nav-item">Me connecter</li>
+      </NavLink>
+    );
+  };
+
 const Navigation = () => {
   return (
     <div className="navigation">
@@ -50,6 +58,7 @@ const Navigation = () => {
         <AboutLink />
         <RejoindreLink />
         <ActusLink />
+        <Loginlink />
       </ul>
       <Accueil />
     </div>

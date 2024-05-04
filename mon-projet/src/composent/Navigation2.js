@@ -9,6 +9,7 @@ const HomeLink = () => {
   );
 };
 
+
 const Navigation = () => {
   return (
     <div className="navigation">
