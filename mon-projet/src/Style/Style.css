@@ -92,6 +92,8 @@ li {
   transform: translate(-50%, -50%);
   color: #080808;
   font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
   z-index: 2;
 }
 
@@ -105,6 +107,8 @@ li {
   color: #080808;
   font-size: 30px;
   cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
 }
 
 .nav-link-actus {
@@ -116,6 +120,8 @@ li {
   transform: translate(-50%, -50%);
   color: #080808;
   font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
 }
 
 .nav-link-rejoindre {
@@ -127,6 +133,8 @@ li {
   z-index: 2;
   color: #080808;
   font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
 }
 
 .nav-link-equipe {
@@ -139,6 +147,8 @@ li {
   color: #080808;
   font-size: 30px;
   cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
 }
 
 .nav-link-rejoindre:hover {
@@ -228,6 +238,7 @@ li {
   top: 1000px;
   left: 850px;
   color: #e70c79;
+  /* font-style: italic; */
   font-size: 60px;
 }
 
@@ -385,10 +396,7 @@ header {
 .police {
   margin: 50px 0;
   font-family:
-    Open Sans,
-    Helvetica,
-    Arial,
-    sans-serif;
+    URW Chancery L, cursive;
   font-weight: 300;
   margin-top: 0;
   color: #252525;
