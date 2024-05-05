@@ -2,19 +2,34 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const HomeLink = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
-    <NavLink to="/" className="link">
+    <NavLink to="/" className="link" onClick={scrollToTop}>
       <li className="nav-item">Accueil</li>
+    </NavLink>
+  );
+};
+
+const Publier = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
+  return (
+    <NavLink to="/" className="link" onClick={scrollToTop}>
+      <li className="nav-item">Publier</li>
     </NavLink>
   );
 };
 
 const Navigation2 = () => {
   return (
-    <div className="link">
-      <ul>
-        <HomeLink />
-      </ul>
+    <div>
+      <HomeLink />
+      <Publier />
     </div>
   );
 };

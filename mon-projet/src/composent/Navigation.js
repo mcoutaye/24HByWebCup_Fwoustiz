@@ -62,7 +62,7 @@ const RejoindreLink = () => {
 const ActusLink = () => {
     return (
       <NavLink to="/about" className="nav-link-actus">
-        <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Actus</li>
+        <li className="nav-item" style={{ fontFamily: 'Lato, sans-serif'}}>Anciens</li>
       </NavLink>
     );
   };

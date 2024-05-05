@@ -9,16 +9,15 @@ const Transition = () => {
     <div>
       <BannerFin />
       <ContactFooter />
-    <div className="rectangle">
-      <div className="police">
-        <h1> Découvrez leur profil et témoignage</h1>
-        <ol className="bg">
-            <li> >>Publier</li>
-            <Navigation2 /> 
-        </ol>
+      <div className="rectangle">
+        <div className="police">
+          <h1> Découvrez leur profil et témoignage</h1>
+          <ol className="bg">
+            <Navigation2 />
+          </ol>
+        </div>
+        <img src={img} className="img" alt="img" />
       </div>
-      <img src={img} className="img" alt="img" />
-    </div>
     </div>
   );
 };
