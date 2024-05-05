@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { signIn } from '../firebase';
+import '../Style/Style.css';
+import login from '../assets/login.png';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -43,23 +45,26 @@ const Login = () => {
 
   return (
     <div>
-      <h1>Connexion</h1>
+      <img src={login} className="login" alt="login" />
+      <h1 className="coInput" >Connexion</h1>
       <form onSubmit={handleLogin}>
         <div>
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" />
+          <label className="emailInput" htmlFor="email">Email:</label>
+          <input type="email" id="email" name="email" className="emailInput" />
         </div>
         <div>
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" />
+          <br></br>
+          <label className="passInput" htmlFor="password">Password:</label>
+          <input type="password" id="password" name="password" className="passInput" />
         </div>
-        <button type="submit">Se connecter</button>
+        <br></br>
+        <button className="connectInput" type="submit">Se connecter</button>
       </form>
-      <Link to="/">Revenir à l'accueil</Link>
+      <Link to="/" className="accInput" >Revenir à l'accueil</Link>
       <span> | </span>
-      <p>Vous n'avez pas de compte ? <Link to="/signup">S'inscrire</Link></p>
+      <p className="sinscrirInput">Vous n'avez pas de compte ? <Link to="/signup" >S'inscrire</Link></p>
     </div>
-  );
+  );  
 };
 
 export default Login;

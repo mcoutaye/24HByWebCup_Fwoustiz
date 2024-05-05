@@ -421,3 +421,59 @@ header {
   top: 2550px;
   width: 90%;
 }
+
+.coInput {
+  position: absolute;
+  top: 0px;
+  left: 70%;
+  width: 30%;
+  font-size: 500%;
+}
+
+.emailInput {
+  position: relative;
+  top: 250px;
+  left: 70%;
+  width: 20%;
+  font-size: 200%;
+}
+
+.passInput {
+  position: relative;
+  top: 300px;
+  left: 70%;
+  width: 20%;
+  font-size: 200%;
+}
+
+.connectInput {
+  position: relative;
+  top: 350px;
+  left: 70%;
+  width: 20%;
+  font-size: 200%;
+}
+
+.accInput {
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  width: 20%;
+  font-size: 200%;
+}
+
+.sinscrirInput {
+  position: relative;
+  top: 500px;
+  left: 70%;
+  width: 20%;
+  font-size: 150%;
+}
+
+.login {
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  width: 100%; /* Largeur du conteneur login */
+  height: 940px; /* Hauteur du conteneur login */
+}
