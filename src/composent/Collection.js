@@ -1,5 +1,6 @@
 import React from "react";
 import Subheader from "./Subheader";
+import host from "../assets/host.webp";
 
 const Collection = () => {
   return (
@@ -17,7 +18,7 @@ const Collection = () => {
         Félicitations à l’équipe YLANGS pour cette performance remarquable! 🎉🌐"
       />
       <Subheader
-        img="https://www.lejournaldesarchipels.com/wp-content/uploads/2023/11/webcup-1280x640.jpg"
+        img={host}
         title="**HOST**"
         caption="L’équipe HOST Madagascar a remporté la finale de la WebCup en 2021. Le tournoi de développement web de l’océan Indien s’est déroulé en ligne, et HOST a brillamment démontré ses compétences techniques. Leur victoire a été un moment fort pour Madagascar et a mis en avant leur talent dans le domaine du développement web.
 

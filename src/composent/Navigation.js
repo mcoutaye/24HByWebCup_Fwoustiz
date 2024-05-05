@@ -4,7 +4,7 @@ import { NavLink} from "react-router-dom";
 const handleAboutClick = () => {
   const aboutSection = document.getElementById("about");
   if (aboutSection) {
-    const aboutSectionPosition = aboutSection.getBoundingClientRect().top;
+    const aboutSectionPosition = aboutSection.getBoundingClientRect().top - 70;
     window.scrollTo({
       top: window.pageYOffset + aboutSectionPosition + 5,
       behavior: "smooth"
@@ -15,7 +15,7 @@ const handleAboutClick = () => {
 const handleAboutClick2 = () => {
   const aboutSection = document.getElementById("about");
   if (aboutSection) {
-    const aboutSectionPosition = aboutSection.getBoundingClientRect().top;
+    const aboutSectionPosition = aboutSection.getBoundingClientRect().top - 200;
     window.scrollTo({
       top: window.pageYOffset + aboutSectionPosition + 1000,
       behavior: "smooth"
